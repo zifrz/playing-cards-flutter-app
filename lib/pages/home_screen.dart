@@ -45,7 +45,9 @@ class HomeScreen extends StatelessWidget {
               color: Colors.white,
               shadows: [
                 Shadow(
-                    offset: Offset(2, 2), color: Colors.black38, blurRadius: 8),
+                  color: Colors.greenAccent,
+                  blurRadius: 32,
+                ),
               ],
             ),
           ),
