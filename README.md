@@ -1,6 +1,8 @@
 # myapp
 
-A new Flutter project.
+Simple Flutter that displays front and back of playing card.
+
+Completely written in dart, no images used.
 
 ## Getting Started
 
