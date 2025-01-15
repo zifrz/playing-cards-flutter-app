@@ -10,12 +10,13 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.green[700],
-      body: Padding(
-        padding: const EdgeInsets.only(left: 16.0, right: 16.0, top: 32.0),
-        child: SingleChildScrollView(
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 32.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              const SizedBox(height: 20),
               _buildSuitSection(
                   'Hearts ${CardSuit.hearts.symbol}', CardSuit.hearts),
               const SizedBox(height: 40),
