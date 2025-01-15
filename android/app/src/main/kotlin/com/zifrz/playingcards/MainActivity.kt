@@ -1,4 +1,4 @@
-package com.example.myapp
+package com.zifrz.playingcards
 
 import io.flutter.embedding.android.FlutterActivity
 
